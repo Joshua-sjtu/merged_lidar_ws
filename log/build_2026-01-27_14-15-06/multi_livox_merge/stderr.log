@@ -1,0 +1,15 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake:66 (add_executable):
+  Cannot find source file:
+
+    src/mergeToMainLidar.cpp
+Call Stack (most recent call first):
+  CMakeLists.txt:19 (ament_auto_add_executable)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake:66 (add_executable):
+  No SOURCES given to target: merge_point_node
+Call Stack (most recent call first):
+  CMakeLists.txt:19 (ament_auto_add_executable)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

@@ -1,0 +1,153 @@
+[0.009s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.713s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.816s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.930s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.937s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.005s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.114s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.145s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.195s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.204s] -- Looking for pthread.h
+[1.283s] -- Looking for pthread.h - found
+[1.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.365s] -- Found Threads: TRUE  
+[1.519s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.520s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.520s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.579s] -- Checking for module 'eigen3'
+[1.597s] --   Found eigen3, version 3.4.0
+[1.640s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.640s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.677s] -- Checking for module 'flann'
+[1.697s] --   Found flann, version 1.9.1
+[1.754s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.754s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.851s] -- Checking for module 'libusb-1.0'
+[2.868s] --   Found libusb-1.0, version 1.0.25
+[2.917s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.917s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.998s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.159s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.167s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.175s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.293s] -- Found Qhull version 8.0.2
+[3.420s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.544s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.545s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.546s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.547s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.547s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.548s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.548s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.549s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.549s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.550s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.551s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.552s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.553s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.553s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.554s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.555s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.555s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.556s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.557s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.558s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.559s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.559s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.559s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.560s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.561s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.575s] -- Configuring done
+[3.589s] -- Generating done
+[3.591s] [33mCMake Warning:
+[3.591s]   Manually-specified variables were not used by the project:
+[3.591s] 
+[3.591s]     HUMBLE_ROS
+[3.591s]     ROS_EDITION
+[3.591s] 
+[3.591s] [0m
+[3.592s] -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/lidar_merge
+[3.612s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '0': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[3.614s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16
+[3.670s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_point_node.dir/src/merge.cpp.o[0m
+[5.997s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:[m[K In constructor ‘[01m[KMergeCustomMsgNode::MergeCustomMsgNode()[m[K’:
+[5.997s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:27:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> > >::subscribe(MergeCustomMsgNode*, const char [27], rclcpp::QoS&)[m[K’
+[5.997s]    27 |     [01;31m[Ksub1_.subscribe(this, "/livox/lidar_192_168_1_198", qos)[m[K;
+[5.997s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.997s] In file included from [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:4[m[K:
+[5.997s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:219:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+[5.997s]   219 |   void [01;36m[Ksubscribe[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.997s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:219:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMergeCustomMsgNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[5.998s]   219 |   void subscribe([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.998s]       |                  [01;36m[K~~~~~~~~^~~~[m[K
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:234:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const string&, rmw_qos_profile_t) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+[5.998s]   234 |   void [01;36m[Ksubscribe[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.998s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:234:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+[5.998s]   234 |  void subscribe(NodeType * node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K) override
+[5.998s]       |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.998s] 
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:249:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.998s]   249 |   void [01;36m[Ksubscribe[m[K(
+[5.998s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:249:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:271:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.998s]   271 |   void [01;36m[Ksubscribe[m[K(
+[5.998s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:271:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[5.998s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:298:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe() [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+[5.998s]   298 |   void [01;36m[Ksubscribe[m[K() override
+[5.999s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:298:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[5.999s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:28:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> > >::subscribe(MergeCustomMsgNode*, const char [27], rclcpp::QoS&)[m[K’
+[5.999s]    28 |     [01;31m[Ksub2_.subscribe(this, "/livox/lidar_192_168_1_187", qos)[m[K;
+[5.999s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.999s] In file included from [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:4[m[K:
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:219:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+[5.999s]   219 |   void [01;36m[Ksubscribe[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.999s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:219:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMergeCustomMsgNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[5.999s]   219 |   void subscribe([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.999s]       |                  [01;36m[K~~~~~~~~^~~~[m[K
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:234:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const string&, rmw_qos_profile_t) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+[5.999s]   234 |   void [01;36m[Ksubscribe[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+[5.999s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:234:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+[5.999s]   234 |  void subscribe(NodeType * node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K) override
+[5.999s]       |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.999s] 
+[5.999s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:249:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[6.000s]   249 |   void [01;36m[Ksubscribe[m[K(
+[6.000s]       |        [01;36m[K^~~~~~~~~[m[K
+[6.000s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:249:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[6.000s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:271:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[6.000s]   271 |   void [01;36m[Ksubscribe[m[K(
+[6.000s]       |        [01;36m[K^~~~~~~~~[m[K
+[6.000s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:271:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[6.000s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:298:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::subscribe() [with M = livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+[6.000s]   298 |   void [01;36m[Ksubscribe[m[K() override
+[6.000s]       |        [01;36m[K^~~~~~~~~[m[K
+[6.000s] [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:298:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[8.540s] gmake[2]: *** [CMakeFiles/merge_point_node.dir/build.make:76：CMakeFiles/merge_point_node.dir/src/merge.cpp.o] 错误 1
+[8.540s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/merge_point_node.dir/all] 错误 2
+[8.540s] gmake: *** [Makefile:146：all] 错误 2
+[8.543s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '2': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16

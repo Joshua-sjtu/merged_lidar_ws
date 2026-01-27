@@ -20,21 +20,17 @@ public:
   MergeCustomMsgNode() : Node("merge_point_node"),
                          tf_buffer_(this->get_clock()),
                          tf_listener_(tf_buffer_) {
-    // 使用 rclcpp::QoS 构造，并转换为 rmw_qos_profile_t
-    rclcpp::QoS qos_profile = rclcpp::SensorDataQoS();
-    rmw_qos_profile_t rmw_qos = qos_profile.get_rmw_qos_profile();
+    // QoS 配置
+    rclcpp::QoS qos = rclcpp::SensorDataQoS();
 
-    // 使用 shared_from_this()，但显式转换为 rclcpp::Node::SharedPtr 以避免歧义
-    rclcpp::Node::SharedPtr node_shared = shared_from_this();
+    rmw_qos_profile_t rmw_qos = qos.get_rmw_qos_profile();
 
-    sub1_.subscribe(node_shared, "/livox/lidar_192_168_1_198", rmw_qos);
-    sub2_.subscribe(node_shared, "/livox/lidar_192_168_1_187", rmw_qos);
+    // subscriber 用 rmw_qos
+    sub1_.subscribe(this, "/livox/lidar_192_168_1_187", rmw_qos);
+    sub2_.subscribe(this, "/livox/lidar_192_168_1_198", rmw_qos);
 
-    sync_ = std::make_shared<message_filters::Synchronizer<SyncPolicy>>(SyncPolicy(10), sub1_, sub2_);
-    sync_->setMaxIntervalDuration(rclcpp::Duration::from_seconds(0.03));
-    sync_->registerCallback(std::bind(&MergeCustomMsgNode::callback, this, std::placeholders::_1, std::placeholders::_2));
-
-    pub_merged_ = this->create_publisher<CustomMsg>("/merged_custom_cloud", 10);
+    // publisher 直接用 qos（rclcpp::QoS 类型）
+    pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", qos);
   }
 
 private:
@@ -47,8 +43,8 @@ private:
     geometry_msgs::msg::TransformStamped tf_stamped;
     try {
       tf_stamped = tf_buffer_.lookupTransform(
-        msg1->header.frame_id,
-        msg2->header.frame_id,
+        msg1->header.frame_id,           // target = lidar1 frame
+        msg2->header.frame_id,           // source = lidar2 frame
         rclcpp::Time(0),
         rclcpp::Duration(1, 0));
     } catch (const tf2::TransformException& ex) {
@@ -71,7 +67,7 @@ private:
     }
 
     CustomMsg merged;
-    merged.lidar_id = 0;
+    merged.lidar_id = 0;  // 融合云设为 0
 
     // 处理 msg1 的点（不做坐标变换）
     for (const auto& pt1 : msg1->points) {
@@ -84,6 +80,7 @@ private:
     for (const auto& pt2 : msg2->points) {
       CustomPoint new_pt = pt2;
 
+      // 变换坐标 (x,y,z)
       geometry_msgs::msg::PointStamped pt_in, pt_out;
       pt_in.header = msg2->header;
       pt_in.point.x = pt2.x; pt_in.point.y = pt2.y; pt_in.point.z = pt2.z;
@@ -96,9 +93,10 @@ private:
       merged.points.push_back(new_pt);
     }
 
+    // 更新数据头等信息
     merged.point_num = static_cast<uint32_t>(merged.points.size());
     merged.header.stamp = (earlier_lidar_id == 1) ? msg1->header.stamp : msg2->header.stamp;
-    merged.header.frame_id = msg1->header.frame_id;
+    merged.header.frame_id = msg1->header.frame_id;  // 统一到 lidar1
     merged.timebase = earlier_lidar_id == 1 ? msg1->timebase : msg2->timebase;
 
     pub_merged_->publish(merged);

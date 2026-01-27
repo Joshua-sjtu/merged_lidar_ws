@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000564] (lidar_merge) JobQueued: {'identifier': 'lidar_merge', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2')])}
+[0.000602] (lidar_merge) JobStarted: {'identifier': 'lidar_merge'}
+[0.013003] (lidar_merge) JobProgress: {'identifier': 'lidar_merge', 'progress': 'cmake'}
+[0.013385] (lidar_merge) Command: {'cmd': ['/usr/bin/cmake', '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge'], 'cwd': '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fins'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/Desktop/merged_lidar_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/opencv-4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/fins/miniconda3/condabin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/FineStdImg:@/tmp/.ICE-unix/1508,unix/FineStdImg:/tmp/.ICE-unix/1508'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b9a1141_8dda_4d4b_8122_f6b68c06b1b8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I7DSJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.202'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.081262] (lidar_merge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099409] (-) TimerEvent: {}
+[0.145581] (lidar_merge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154239] (lidar_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199510] (-) TimerEvent: {}
+[0.238788] (lidar_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.246370] (lidar_merge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.246635] (lidar_merge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.247029] (lidar_merge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.250108] (lidar_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299630] (-) TimerEvent: {}
+[0.327970] (lidar_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.333504] (lidar_merge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.333706] (lidar_merge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.334002] (lidar_merge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.336227] (lidar_merge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399721] (-) TimerEvent: {}
+[0.500039] (-) TimerEvent: {}
+[0.600429] (-) TimerEvent: {}
+[0.615516] (lidar_merge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.662749] (lidar_merge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.689238] (lidar_merge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.700539] (-) TimerEvent: {}
+[0.773562] (lidar_merge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.777282] (lidar_merge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.783433] (lidar_merge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.792037] (lidar_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800674] (-) TimerEvent: {}
+[0.803632] (lidar_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.834896] (lidar_merge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.836768] (lidar_merge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900768] (-) TimerEvent: {}
+[0.916598] (lidar_merge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.940683] (lidar_merge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.980135] (lidar_merge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.987056] (lidar_merge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000856] (-) TimerEvent: {}
+[1.054056] (lidar_merge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.054315] (lidar_merge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100966] (-) TimerEvent: {}
+[1.125483] (lidar_merge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.126314] (lidar_merge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201072] (-) TimerEvent: {}
+[1.259445] (lidar_merge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.260296] (lidar_merge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.260383] (lidar_merge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301189] (-) TimerEvent: {}
+[1.312713] (lidar_merge) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.326047] (lidar_merge) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.363635] (lidar_merge) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.363932] (lidar_merge) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.393173] (lidar_merge) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.401338] (-) TimerEvent: {}
+[1.406355] (lidar_merge) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.453688] (lidar_merge) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.453927] (lidar_merge) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.501415] (-) TimerEvent: {}
+[1.601867] (-) TimerEvent: {}
+[1.702220] (-) TimerEvent: {}
+[1.802551] (-) TimerEvent: {}
+[1.902909] (-) TimerEvent: {}
+[2.003314] (-) TimerEvent: {}
+[2.103682] (-) TimerEvent: {}
+[2.204050] (-) TimerEvent: {}
+[2.304397] (-) TimerEvent: {}
+[2.305588] (lidar_merge) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.321146] (lidar_merge) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.357542] (lidar_merge) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.358345] (lidar_merge) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.404473] (-) TimerEvent: {}
+[2.421083] (lidar_merge) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.504561] (-) TimerEvent: {}
+[2.544513] (lidar_merge) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.550351] (lidar_merge) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.557671] (lidar_merge) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.604690] (-) TimerEvent: {}
+[2.671560] (lidar_merge) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.704793] (-) TimerEvent: {}
+[2.787531] (lidar_merge) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.804890] (-) TimerEvent: {}
+[2.898088] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.898721] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.899450] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.899972] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.900537] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.901144] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.901395] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.901617] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.902196] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.902850] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.903516] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.904093] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.904793] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.904984] (-) TimerEvent: {}
+[2.905521] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.906380] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.907072] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.907743] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.908358] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.909078] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.909697] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.910232] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.910424] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.910634] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.911218] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.911845] (lidar_merge) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.927290] (lidar_merge) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.940314] (lidar_merge) StdoutLine: {'line': b'-- Generating done\n'}
+[2.942540] (lidar_merge) StdoutLine: {'line': b'-- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/lidar_merge\n'}
+[2.958976] (lidar_merge) CommandEnded: {'returncode': 0}
+[2.961171] (lidar_merge) JobProgress: {'identifier': 'lidar_merge', 'progress': 'build'}
+[2.961201] (lidar_merge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge', '--', '-j16', '-l16'], 'cwd': '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fins'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/Desktop/merged_lidar_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/opencv-4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/fins/miniconda3/condabin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/FineStdImg:@/tmp/.ICE-unix/1508,unix/FineStdImg:/tmp/.ICE-unix/1508'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b9a1141_8dda_4d4b_8122_f6b68c06b1b8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I7DSJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.202'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[3.005176] (-) TimerEvent: {}
+[3.011530] (lidar_merge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_point_node.dir/src/merge.cpp.o\x1b[0m\n'}
+[3.105285] (-) TimerEvent: {}
+[3.205735] (-) TimerEvent: {}
+[3.306119] (-) TimerEvent: {}
+[3.406482] (-) TimerEvent: {}
+[3.506886] (-) TimerEvent: {}
+[3.607290] (-) TimerEvent: {}
+[3.707706] (-) TimerEvent: {}
+[3.808071] (-) TimerEvent: {}
+[3.908435] (-) TimerEvent: {}
+[4.008827] (-) TimerEvent: {}
+[4.109215] (-) TimerEvent: {}
+[4.209580] (-) TimerEvent: {}
+[4.309972] (-) TimerEvent: {}
+[4.410312] (-) TimerEvent: {}
+[4.510692] (-) TimerEvent: {}
+[4.611049] (-) TimerEvent: {}
+[4.711410] (-) TimerEvent: {}
+[4.811777] (-) TimerEvent: {}
+[4.912079] (-) TimerEvent: {}
+[5.012441] (-) TimerEvent: {}
+[5.112731] (-) TimerEvent: {}
+[5.213029] (-) TimerEvent: {}
+[5.313326] (-) TimerEvent: {}
+[5.413633] (-) TimerEvent: {}
+[5.513963] (-) TimerEvent: {}
+[5.614418] (-) TimerEvent: {}
+[5.714917] (-) TimerEvent: {}
+[5.815363] (-) TimerEvent: {}
+[5.915792] (-) TimerEvent: {}
+[6.016204] (-) TimerEvent: {}
+[6.116614] (-) TimerEvent: {}
+[6.217002] (-) TimerEvent: {}
+[6.317390] (-) TimerEvent: {}
+[6.417832] (-) TimerEvent: {}
+[6.518153] (-) TimerEvent: {}
+[6.618480] (-) TimerEvent: {}
+[6.718834] (-) TimerEvent: {}
+[6.819218] (-) TimerEvent: {}
+[6.919636] (-) TimerEvent: {}
+[7.019953] (-) TimerEvent: {}
+[7.120297] (-) TimerEvent: {}
+[7.220659] (-) TimerEvent: {}
+[7.321024] (-) TimerEvent: {}
+[7.421349] (-) TimerEvent: {}
+[7.521710] (-) TimerEvent: {}
+[7.622078] (-) TimerEvent: {}
+[7.722492] (-) TimerEvent: {}
+[7.822870] (-) TimerEvent: {}
+[7.923235] (-) TimerEvent: {}
+[8.023590] (-) TimerEvent: {}
+[8.123998] (-) TimerEvent: {}
+[8.224349] (-) TimerEvent: {}
+[8.324708] (-) TimerEvent: {}
+[8.425069] (-) TimerEvent: {}
+[8.525421] (-) TimerEvent: {}
+[8.625794] (-) TimerEvent: {}
+[8.726162] (-) TimerEvent: {}
+[8.826535] (-) TimerEvent: {}
+[8.926940] (-) TimerEvent: {}
+[9.027320] (-) TimerEvent: {}
+[9.127708] (-) TimerEvent: {}
+[9.228087] (-) TimerEvent: {}
+[9.328473] (-) TimerEvent: {}
+[9.428868] (-) TimerEvent: {}
+[9.529247] (-) TimerEvent: {}
+[9.629619] (-) TimerEvent: {}
+[9.729980] (-) TimerEvent: {}
+[9.830341] (-) TimerEvent: {}
+[9.930747] (-) TimerEvent: {}
+[10.031180] (-) TimerEvent: {}
+[10.131608] (-) TimerEvent: {}
+[10.232028] (-) TimerEvent: {}
+[10.332375] (-) TimerEvent: {}
+[10.432729] (-) TimerEvent: {}
+[10.533077] (-) TimerEvent: {}
+[10.633429] (-) TimerEvent: {}
+[10.733785] (-) TimerEvent: {}
+[10.834125] (-) TimerEvent: {}
+[10.934443] (-) TimerEvent: {}
+[11.034768] (-) TimerEvent: {}
+[11.135122] (-) TimerEvent: {}
+[11.235472] (-) TimerEvent: {}
+[11.335854] (-) TimerEvent: {}
+[11.436222] (-) TimerEvent: {}
+[11.536597] (-) TimerEvent: {}
+[11.636983] (-) TimerEvent: {}
+[11.737332] (-) TimerEvent: {}
+[11.837711] (-) TimerEvent: {}
+[11.938098] (-) TimerEvent: {}
+[12.038472] (-) TimerEvent: {}
+[12.138827] (-) TimerEvent: {}
+[12.239189] (-) TimerEvent: {}
+[12.339555] (-) TimerEvent: {}
+[12.439944] (-) TimerEvent: {}
+[12.540291] (-) TimerEvent: {}
+[12.640660] (-) TimerEvent: {}
+[12.741026] (-) TimerEvent: {}
+[12.841395] (-) TimerEvent: {}
+[12.941773] (-) TimerEvent: {}
+[13.042136] (-) TimerEvent: {}
+[13.142506] (-) TimerEvent: {}
+[13.242886] (-) TimerEvent: {}
+[13.343215] (-) TimerEvent: {}
+[13.443535] (-) TimerEvent: {}
+[13.543878] (-) TimerEvent: {}
+[13.644244] (-) TimerEvent: {}
+[13.744627] (-) TimerEvent: {}
+[13.844983] (-) TimerEvent: {}
+[13.945296] (-) TimerEvent: {}
+[14.045627] (-) TimerEvent: {}
+[14.146005] (-) TimerEvent: {}
+[14.154686] (lidar_merge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable merge_point_node\x1b[0m\n'}
+[14.246149] (-) TimerEvent: {}
+[14.333352] (lidar_merge) StdoutLine: {'line': b'[100%] Built target merge_point_node\n'}
+[14.344661] (lidar_merge) CommandEnded: {'returncode': 0}
+[14.346302] (-) TimerEvent: {}
+[14.375284] (lidar_merge) JobProgress: {'identifier': 'lidar_merge', 'progress': 'install'}
+[14.383972] (lidar_merge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge'], 'cwd': '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fins'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib'), ('HOME', '/home/fins'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fins/Desktop/merged_lidar_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'fins'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/opencv-4.7.0/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fins'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/fins/miniconda3/condabin:/home/fins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fins/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/FineStdImg:@/tmp/.ICE-unix/1508,unix/FineStdImg:/tmp/.ICE-unix/1508'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b9a1141_8dda_4d4b_8122_f6b68c06b1b8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I7DSJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.202'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fins/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/fins/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f055f166e1e23f42c2110f3669783163'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[14.391265] (lidar_merge) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[14.391612] (lidar_merge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.392545] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib/lidar_merge/merge_point_node\n'}
+[14.400082] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/ament_index/resource_index/package_run_dependencies/lidar_merge\n'}
+[14.409765] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/ament_index/resource_index/parent_prefix_path/lidar_merge\n'}
+[14.418241] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/environment/ament_prefix_path.sh\n'}
+[14.426671] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/environment/ament_prefix_path.dsv\n'}
+[14.435698] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/environment/path.sh\n'}
+[14.444480] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/environment/path.dsv\n'}
+[14.446381] (-) TimerEvent: {}
+[14.454670] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/local_setup.bash\n'}
+[14.463241] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/local_setup.sh\n'}
+[14.473715] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/local_setup.zsh\n'}
+[14.482289] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/local_setup.dsv\n'}
+[14.490988] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.dsv\n'}
+[14.498333] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/ament_index/resource_index/packages/lidar_merge\n'}
+[14.506860] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.514359] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.522793] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/cmake/lidar_mergeConfig.cmake\n'}
+[14.530380] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/cmake/lidar_mergeConfig-version.cmake\n'}
+[14.540226] (lidar_merge) StdoutLine: {'line': b'-- Symlinking: /home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.xml\n'}
+[14.546494] (-) TimerEvent: {}
+[14.551135] (lidar_merge) CommandEnded: {'returncode': 0}
+[14.595589] (lidar_merge) JobEnded: {'identifier': 'lidar_merge', 'rc': 0}
+[14.596339] (-) EventReactorShutdown: {}

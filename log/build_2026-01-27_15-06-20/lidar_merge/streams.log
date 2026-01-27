@@ -1,0 +1,120 @@
+[0.017s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[0.030s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.284s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.289s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.296s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.347s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.430s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.456s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.501s] -- Looking for pthread.h
+[0.569s] -- Looking for pthread.h - found
+[0.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.639s] -- Found Threads: TRUE  
+[0.767s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.768s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.769s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.817s] -- Checking for module 'eigen3'
+[0.831s] --   Found eigen3, version 3.4.0
+[0.867s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.867s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.898s] -- Checking for module 'flann'
+[0.911s] --   Found flann, version 1.9.1
+[0.951s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.952s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.794s] -- Checking for module 'libusb-1.0'
+[1.808s] --   Found libusb-1.0, version 1.0.25
+[1.851s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.851s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.912s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.038s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.045s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.052s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.162s] -- Found Qhull version 8.0.2
+[2.272s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.387s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.387s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.388s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.389s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.389s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.390s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.390s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.390s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.391s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.391s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.392s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.393s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.393s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.394s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.395s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.395s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.396s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.397s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.397s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.398s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.398s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.399s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.399s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.399s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.400s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.413s] -- Configuring done
+[2.426s] -- Generating done
+[2.428s] -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/lidar_merge
+[2.447s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '0': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[2.448s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16
+[2.500s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_point_node.dir/src/merge.cpp.o[0m
+[4.673s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:[m[K In constructor ‘[01m[KMergeCustomMsgNode::MergeCustomMsgNode()[m[K’:
+[4.673s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kparentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[4.673s]    25 |     rclcpp::QoS qos[01;35m[K(rclcpp::SensorDataQoS())[m[K;
+[4.673s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.674s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:25:20:[m[K [01;36m[Knote: [m[Kreplace parentheses with braces to declare a variable
+[4.674s]    25 |     rclcpp::QoS qos[01;36m[K(rclcpp::SensorDataQoS())[m[K;
+[4.674s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.674s]       |                    [31m[K-[m[K
+[4.674s]       |                    [32m[K{[m[K                       [31m[K-[m[K
+[4.674s]       |                                            [32m[K}[m[K
+[4.674s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:28:21:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[4.674s]    28 |     sub1_.subscribe([01;31m[Kshared_from_this[m[K(), "/livox/lidar_192_168_1_198", qos);
+[4.674s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.674s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.675s]                  from [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:1[m[K:
+[4.675s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MergeCustomMsgNode][m[K’
+[4.675s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[4.675s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.675s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MergeCustomMsgNode][m[K’
+[4.675s]   807 |       [01;36m[Kshared_from_this[m[K()
+[4.675s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.675s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[4.675s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[4.675s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.675s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[4.675s]   807 |       [01;36m[Kshared_from_this[m[K()
+[4.675s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.675s] [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:29:21:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+[4.675s]    29 |     sub2_.subscribe([01;31m[Kshared_from_this[m[K(), "/livox/lidar_192_168_1_187", qos);
+[4.675s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.675s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.675s]                  from [01m[K/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/src/merge.cpp:1[m[K:
+[4.675s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MergeCustomMsgNode][m[K’
+[4.675s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[4.676s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MergeCustomMsgNode][m[K’
+[4.676s]   807 |       [01;36m[Kshared_from_this[m[K()
+[4.676s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+[4.676s]   811 |       [01;36m[Kshared_from_this[m[K() const
+[4.676s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+[4.676s]   807 |       [01;36m[Kshared_from_this[m[K()
+[4.676s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.209s] gmake[2]: *** [CMakeFiles/merge_point_node.dir/build.make:76：CMakeFiles/merge_point_node.dir/src/merge.cpp.o] 错误 1
+[7.209s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/merge_point_node.dir/all] 错误 2
+[7.210s] gmake: *** [Makefile:146：all] 错误 2
+[7.213s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '2': AMENT_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib PYTHONPATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16

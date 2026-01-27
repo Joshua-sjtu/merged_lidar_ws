@@ -1,0 +1,10 @@
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/uninstall.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/lidar_merge_uninstall.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/merge_point_node.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/test.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/edit_cache.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/rebuild_cache.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/list_install_components.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/install.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/install/local.dir
+/home/fins/Desktop/merged_lidar_ws/build/lidar_merge/CMakeFiles/install/strip.dir

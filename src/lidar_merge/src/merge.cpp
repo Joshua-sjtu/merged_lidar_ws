@@ -8,7 +8,7 @@
 #include <tf2_ros/buffer.h>
 #include <tf2/LinearMath/Transform.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
-#include <algorithm>  // std::clamp
+#include <cstdint>  // uint64_t, uint8_t
 
 using CustomMsg = livox_ros_driver2::msg::CustomMsg;
 using CustomPoint = livox_ros_driver2::msg::CustomPoint;
@@ -18,10 +18,17 @@ using SyncPolicy = message_filters::sync_policies::ApproximateTime<CustomMsg, Cu
 class MergeCustomMsgNode : public rclcpp::Node {
 public:
   MergeCustomMsgNode() : Node("merge_point_node"),
-                          tf_buffer_(this->get_clock()),
-                          tf_listener_(tf_buffer_) {
-    sub1_.subscribe(this, "/livox/lidar_192_168_1_198", rclcpp::SensorDataQoS());
-    sub2_.subscribe(this, "/livox/lidar_192_168_1_187", rclcpp::SensorDataQoS());
+                         tf_buffer_(this->get_clock()),
+                         tf_listener_(tf_buffer_) {
+    // 使用 rclcpp::QoS 构造，并转换为 rmw_qos_profile_t
+    rclcpp::QoS qos_profile = rclcpp::SensorDataQoS();
+    rmw_qos_profile_t rmw_qos = qos_profile.get_rmw_qos_profile();
+
+    // 使用 shared_from_this()，但显式转换为 rclcpp::Node::SharedPtr 以避免歧义
+    rclcpp::Node::SharedPtr node_shared = shared_from_this();
+
+    sub1_.subscribe(node_shared, "/livox/lidar_192_168_1_198", rmw_qos);
+    sub2_.subscribe(node_shared, "/livox/lidar_192_168_1_187", rmw_qos);
 
     sync_ = std::make_shared<message_filters::Synchronizer<SyncPolicy>>(SyncPolicy(10), sub1_, sub2_);
     sync_->setMaxIntervalDuration(rclcpp::Duration::from_seconds(0.03));
@@ -32,12 +39,18 @@ public:
 
 private:
   void callback(const CustomMsg::ConstSharedPtr& msg1, const CustomMsg::ConstSharedPtr& msg2) {
-    if (!msg1 || !msg2 || msg1->points.empty() || msg2->points.empty()) return;
+    if (!msg1 || !msg2 || msg1->points.empty() || msg2->points.empty()) {
+      return;
+    }
 
+    // 获取 TF (lidar2 -> lidar1)
     geometry_msgs::msg::TransformStamped tf_stamped;
     try {
       tf_stamped = tf_buffer_.lookupTransform(
-        msg1->header.frame_id, msg2->header.frame_id, rclcpp::Time(0), rclcpp::Duration(1, 0));
+        msg1->header.frame_id,
+        msg2->header.frame_id,
+        rclcpp::Time(0),
+        rclcpp::Duration(1, 0));
     } catch (const tf2::TransformException& ex) {
       RCLCPP_WARN(this->get_logger(), "TF failed: %s", ex.what());
       return;
@@ -46,8 +59,9 @@ private:
     tf2::Transform transform;
     tf2::fromMsg(tf_stamped.transform, transform);
 
-    uint64 dt_ns = 0;
-    uint8 earlier_lidar_id;
+    // 计算时间差 (ns)，统一到 较早时间基准
+    uint64_t dt_ns = 0;
+    uint8_t earlier_lidar_id;
     if (msg2->timebase > msg1->timebase) {
       earlier_lidar_id = 1;
       dt_ns = msg2->timebase - msg1->timebase;
@@ -59,14 +73,17 @@ private:
     CustomMsg merged;
     merged.lidar_id = 0;
 
+    // 处理 msg1 的点（不做坐标变换）
     for (const auto& pt1 : msg1->points) {
       CustomPoint new_pt = pt1;
       new_pt.offset_time = static_cast<uint32_t>(new_pt.offset_time + (earlier_lidar_id == 1 ? 0 : dt_ns / 1000));
       merged.points.push_back(new_pt);
     }
 
+    // 处理 msg2 的点（变换到 lidar1 坐标系）
     for (const auto& pt2 : msg2->points) {
       CustomPoint new_pt = pt2;
+
       geometry_msgs::msg::PointStamped pt_in, pt_out;
       pt_in.header = msg2->header;
       pt_in.point.x = pt2.x; pt_in.point.y = pt2.y; pt_in.point.z = pt2.z;
@@ -74,6 +91,7 @@ private:
       new_pt.x = static_cast<float>(pt_out.point.x);
       new_pt.y = static_cast<float>(pt_out.point.y);
       new_pt.z = static_cast<float>(pt_out.point.z);
+
       new_pt.offset_time = static_cast<uint32_t>(new_pt.offset_time + (earlier_lidar_id == 2 ? 0 : dt_ns / 1000));
       merged.points.push_back(new_pt);
     }

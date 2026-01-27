@@ -1,5 +1,0 @@
-source;share/multi_livox_merge/local_setup.bash
-source;share/multi_livox_merge/local_setup.dsv
-source;share/multi_livox_merge/local_setup.ps1
-source;share/multi_livox_merge/local_setup.sh
-source;share/multi_livox_merge/local_setup.zsh

@@ -71,6 +71,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_merge" TYPE DIRECTORY FILES "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_merge")
 endif()
 

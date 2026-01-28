@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000351] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
-[0.000424] (-) JobUnselected: {'identifier': 'multi_livox_merge'}
-[0.000468] (-) EventReactorShutdown: {}

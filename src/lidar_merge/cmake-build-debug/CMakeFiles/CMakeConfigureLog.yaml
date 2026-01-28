@@ -846,3 +846,85 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake:41 (include)"
+      - "/opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)"
+      - "CMakeLists.txt:12 (ament_auto_find_build_dependencies)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z5nkr8"
+      binary: "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z5nkr8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z5nkr8'
+        
+        Run Build Command(s): /home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5e1b0
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_5e1b0.dir/test_mpi.c.o -c /home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z5nkr8/test_mpi.c
+        [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5e1b0.dir/test_mpi.c.o -o cmTC_5e1b0  /usr/lib/x86_64-linux-gnu/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake:41 (include)"
+      - "/opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)"
+      - "CMakeLists.txt:11 (ament_auto_find_build_dependencies)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VK6REh"
+      binary: "/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VK6REh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VK6REh'
+        
+        Run Build Command(s): /home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_00515
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_00515.dir/test_mpi.c.o -c /home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VK6REh/test_mpi.c
+        [2/2] : && /usr/bin/cc  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_00515.dir/test_mpi.c.o -o cmTC_00515  /usr/lib/x86_64-linux-gnu/libmpi.so && :
+        
+      exitCode: 0
+...

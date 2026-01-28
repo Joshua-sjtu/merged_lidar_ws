@@ -28,6 +28,13 @@ public:
     // subscriber 用 rmw_qos
     sub1_.subscribe(this, "/livox/lidar_192_168_1_187", rmw_qos);
     sub2_.subscribe(this, "/livox/lidar_192_168_1_198", rmw_qos);
+    
+    sync_ = std::make_shared<message_filters::Synchronizer<SyncPolicy>>(SyncPolicy(10), sub1_, sub2_);
+    sync_->setMaxIntervalDuration(rclcpp::Duration::from_seconds(0.03));
+    sync_->registerCallback(std::bind(&MergeCustomMsgNode::callback, this, std::placeholders::_1, std::placeholders::_2));
+
+    pub_merged_ = this->create_publisher<CustomMsg>("/merged_custom_cloud", 10);
+
 
     // publisher 直接用 qos（rclcpp::QoS 类型）
     pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", qos);

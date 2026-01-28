@@ -11,6 +11,6 @@
 -- Using RMW implementation 'rmw_fastrtps_cpp' as default
 -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
 -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
--- Configuring done (0.9s)
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/src/lidar_merge/cmake-build-debug

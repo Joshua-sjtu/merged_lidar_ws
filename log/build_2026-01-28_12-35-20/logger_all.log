@@ -1,0 +1,291 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72c2d39f6140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72c2d3b4ad10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72c2d3b4ad10>>)
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fins/Desktop/merged_lidar_ws'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_merge) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_merge' with type 'ros.ament_cmake' and name 'lidar_merge'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_to_pointcloud2) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_to_pointcloud2' with type 'ros.ament_cmake' and name 'livox_to_pointcloud2'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/fins/Desktop/merged_lidar_ws/install
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'lidar_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge', 'merge_install': False, 'path': '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'livox_to_pointcloud2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'livox_to_pointcloud2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2', 'merge_install': False, 'path': '/home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2', 'symlink_install': False, 'test_result_base': None}
+[0.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2'
+[0.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2
+[2.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2 -- -j16 -l16
+[2.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2 -- -j16 -l16
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2
+[3.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[3.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2' for CMake module files
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2' for CMake config files
+[3.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib'
+[3.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/bin'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/bin'
+[3.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[3.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[3.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[3.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2' for CMake module files
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2' for CMake config files
+[3.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[3.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[3.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[3.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib'
+[3.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/bin'
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/bin'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[3.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[3.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge' with build type 'ament_cmake'
+[3.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fins/Desktop/merged_lidar_ws/src/lidar_merge'
+[3.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2' with build type 'ament_cmake'
+[3.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2'
+[3.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[3.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[4.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/lidar_merge -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/lidar_merge
+[4.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16
+[4.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/lidar_merge -- -j16 -l16
+[4.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/lidar_merge
+[4.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_merge)
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge' for CMake module files
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/lidar_merge' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/lidar_merge
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge' for CMake config files
+[4.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_merge', 'cmake_prefix_path')
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.ps1'
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.dsv'
+[4.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.sh'
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib'
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/bin'
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib/pkgconfig/lidar_merge.pc'
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib/python3.10/site-packages'
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/bin'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.ps1'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.dsv'
+[4.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.sh'
+[4.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.bash'
+[4.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.zsh'
+[4.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/colcon-core/packages/lidar_merge)
+[4.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_merge)
+[4.756s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge' for CMake module files
+[4.756s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge' for CMake config files
+[4.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_merge', 'cmake_prefix_path')
+[4.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.ps1'
+[4.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.dsv'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/hook/cmake_prefix_path.sh'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/bin'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib/pkgconfig/lidar_merge.pc'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/lib/python3.10/site-packages'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/bin'
+[4.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.dsv'
+[4.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.sh'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.bash'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/lidar_merge/package.zsh'
+[4.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/lidar_merge/share/colcon-core/packages/lidar_merge)
+[5.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[5.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16
+[22.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16
+[22.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2
+[22.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_to_pointcloud2)
+[22.574s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2' for CMake module files
+[22.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/opt/ros/humble:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2
+[22.575s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2' for CMake config files
+[22.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_to_pointcloud2', 'cmake_prefix_path')
+[22.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.ps1'
+[22.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.dsv'
+[22.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.sh'
+[22.576s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib'
+[22.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_to_pointcloud2', 'ld_library_path_lib')
+[22.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.ps1'
+[22.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.dsv'
+[22.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.sh'
+[22.577s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/bin'
+[22.577s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/pkgconfig/livox_to_pointcloud2.pc'
+[22.577s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/python3.10/site-packages'
+[22.578s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/bin'
+[22.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.ps1'
+[22.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv'
+[22.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.sh'
+[22.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.bash'
+[22.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.zsh'
+[22.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/colcon-core/packages/livox_to_pointcloud2)
+[22.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_to_pointcloud2)
+[22.616s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2' for CMake module files
+[22.616s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2' for CMake config files
+[22.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_to_pointcloud2', 'cmake_prefix_path')
+[22.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.ps1'
+[22.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.dsv'
+[22.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/cmake_prefix_path.sh'
+[22.618s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib'
+[22.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_to_pointcloud2', 'ld_library_path_lib')
+[22.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.ps1'
+[22.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.dsv'
+[22.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/hook/ld_library_path_lib.sh'
+[22.619s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/bin'
+[22.619s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/pkgconfig/livox_to_pointcloud2.pc'
+[22.619s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/python3.10/site-packages'
+[22.619s] Level 1:colcon.colcon_core.environment:checking '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/bin'
+[22.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.ps1'
+[22.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv'
+[22.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.sh'
+[22.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.bash'
+[22.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.zsh'
+[22.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/colcon-core/packages/livox_to_pointcloud2)
+[22.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.622s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.627s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.636s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/Desktop/merged_lidar_ws/install/local_setup.ps1'
+[22.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fins/Desktop/merged_lidar_ws/install/_local_setup_util_ps1.py'
+[22.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/Desktop/merged_lidar_ws/install/setup.ps1'
+[22.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/Desktop/merged_lidar_ws/install/local_setup.sh'
+[22.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fins/Desktop/merged_lidar_ws/install/_local_setup_util_sh.py'
+[22.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/Desktop/merged_lidar_ws/install/setup.sh'
+[22.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/Desktop/merged_lidar_ws/install/local_setup.bash'
+[22.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/Desktop/merged_lidar_ws/install/setup.bash'
+[22.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/Desktop/merged_lidar_ws/install/local_setup.zsh'
+[22.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/Desktop/merged_lidar_ws/install/setup.zsh'

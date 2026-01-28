@@ -1,0 +1,239 @@
+[0.011s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2
+[0.023s] -- livox_ros_driver2 version: 1.2.4
+[0.023s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.238s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.335s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.426s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.454s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.693s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.699s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.821s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.827s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.834s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.950s] -- Found Qhull version 8.0.2
+[1.084s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.246s] [0m/usr/include/apr-1.0[0m
+[1.246s] [0mapr-1[0m
+[1.420s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.849s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.870s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.870s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.870s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.896s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.904s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.910s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.910s] -- Configured cppcheck include dirs: /home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2/3rdparty;/home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2/src
+[1.910s] -- Configured cppcheck exclude dirs and/or files: 
+[1.916s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.916s] -- Configured cpplint exclude dirs and/or files: 
+[1.917s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.919s] -- Added test 'lint_cmake' to check CMake code style
+[1.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.925s] -- Added test 'uncrustify' to check C / C++ code style
+[1.925s] -- Configured uncrustify additional arguments: 
+[1.926s] -- Added test 'xmllint' to check XML markup files
+[1.928s] -- Configuring done
+[1.986s] -- Generating done
+[1.990s] -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2
+[2.014s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2
+[2.016s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2 -- -j16 -l16
+[2.063s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[2.063s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2_node[0m
+[2.073s] [  1%] Built target livox_interfaces2__cpp
+[2.075s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[2.084s] [  8%] Built target ament_cmake_python_copy_livox_ros_driver2
+[2.085s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[2.085s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[2.085s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[2.085s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[2.086s] [ 12%] Built target livox_ros_driver2_node
+[2.086s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[2.088s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[2.101s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[2.101s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[2.102s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_c
+[2.102s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[2.102s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[2.103s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[2.118s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2[0m
+[2.125s] [ 54%] Built target livox_interfaces2
+[2.149s] [ 56%] Built target livox_interfaces2__py
+[2.162s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py[0m
+[2.179s] [ 66%] Built target livox_interfaces2__rosidl_generator_py
+[2.179s] [ 89%] Built target livox_ros_driver2
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[2.207s] [100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[2.207s] [100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[2.207s] [100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[2.266s] running egg_info
+[2.279s] writing livox_ros_driver2.egg-info/PKG-INFO
+[2.280s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[2.280s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[2.398s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[2.398s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[2.429s] [100%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[2.443s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2 -- -j16 -l16
+[2.590s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2
+[2.598s] -- Install configuration: ""
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[2.598s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[2.599s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[2.599s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[2.600s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.601s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[2.602s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[2.602s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[2.602s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[2.603s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.603s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[2.603s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[2.603s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[2.604s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[2.604s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.604s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[2.604s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[2.604s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.628s] Listing '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[2.629s] Compiling '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[2.629s] Listing '/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[2.633s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config
+[2.634s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config1.json
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config2.json
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/multi_config.json
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch2.py
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch1.py
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/multi_msg_launch.py
+[2.635s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_multi_launch.py
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[2.636s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[2.636s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[2.636s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[2.637s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[2.637s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.637s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.638s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.639s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[2.639s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[2.639s] -- Up-to-date: /home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[2.640s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_ros_driver2

@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.258s] -- Configuring done
+[0.259s] -- Generating done
+[0.259s] [33mCMake Warning:
+[0.259s]   Manually-specified variables were not used by the project:
+[0.259s] 
+[0.259s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.260s]     HUMBLE_ROS
+[0.260s]     ROS_EDITION
+[0.260s] 
+[0.260s] [0m
+[0.260s] -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2
+[0.265s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[0.267s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16
+[0.307s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16

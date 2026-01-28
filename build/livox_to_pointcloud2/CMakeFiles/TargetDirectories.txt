@@ -1,0 +1,11 @@
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/uninstall.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2_uninstall.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2_node.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/test.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/edit_cache.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/rebuild_cache.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/list_install_components.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/install.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/install/local.dir
+/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2/CMakeFiles/install/strip.dir

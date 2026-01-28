@@ -1,0 +1,106 @@
+[0.010s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[0.020s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.493s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.673s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Looking for pthread.h
+[0.788s] -- Looking for pthread.h - found
+[0.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.858s] -- Found Threads: TRUE  
+[0.997s] -- Checking for module 'eigen3'
+[1.011s] --   Found eigen3, version 3.4.0
+[1.045s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.045s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.078s] -- Checking for module 'flann'
+[1.091s] --   Found flann, version 1.9.1
+[1.134s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.134s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.055s] -- Checking for module 'libusb-1.0'
+[2.072s] --   Found libusb-1.0, version 1.0.25
+[2.114s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.115s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.174s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.298s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.305s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.312s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.429s] -- Found Qhull version 8.0.2
+[2.546s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.666s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.667s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.667s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.668s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.668s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.670s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.670s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.670s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.671s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.671s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.672s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.673s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.674s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.674s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.675s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.676s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.676s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.677s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.678s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.679s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.680s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.680s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.680s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.681s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.681s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.691s] -- Found livox_ros_driver2
+[2.699s] -- Configuring done
+[2.715s] -- Generating done
+[2.718s] -- Build files have been written to: /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2
+[2.734s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake /home/fins/Desktop/merged_lidar_ws/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2
+[2.735s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16
+[2.786s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_to_pointcloud2.dir/src/livox_to_pointcloud2_ros2.cpp.o[0m
+[15.614s] [ 50%] [32m[1mLinking CXX shared library liblivox_to_pointcloud2.so[0m
+[15.832s] [ 50%] Built target livox_to_pointcloud2
+[15.853s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_to_pointcloud2_node.dir/src/livox_to_pointcloud2_ros2_node.cpp.o[0m
+[19.028s] [100%] [32m[1mLinking CXX executable livox_to_pointcloud2_node[0m
+[19.143s] [100%] Built target livox_to_pointcloud2_node
+[19.154s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --build /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2 -- -j16 -l16
+[19.187s] Invoking command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2
+[19.195s] -- Install configuration: "RelWithDebInfo"
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/include
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/include/livox_to_pointcloud2
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_converter.hpp
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_to_pointcloud2_ros2.hpp
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.sh
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.dsv
+[19.195s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so
+[19.215s] -- Set runtime path of "/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so" to ""
+[19.215s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node
+[19.217s] -- Set runtime path of "/home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node" to ""
+[19.217s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/livox_to_pointcloud2
+[19.217s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/livox_to_pointcloud2
+[19.217s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.sh
+[19.217s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.dsv
+[19.217s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.sh
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.dsv
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.bash
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.sh
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.zsh
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.dsv
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv
+[19.218s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/packages/livox_to_pointcloud2
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/rclcpp_components/livox_to_pointcloud2
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_libraries-extras.cmake
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config.cmake
+[19.219s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config-version.cmake
+[19.220s] -- Installing: /home/fins/Desktop/merged_lidar_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.xml
+[19.222s] Invoked command in '/home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2:/home/fins/Desktop/merged_lidar_ws/install/lidar_merge:/opt/ros/humble LD_LIBRARY_PATH=/home/fins/Desktop/merged_lidar_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/lib:/usr/local/opencv-4.7.0/lib /usr/bin/cmake --install /home/fins/Desktop/merged_lidar_ws/build/livox_to_pointcloud2

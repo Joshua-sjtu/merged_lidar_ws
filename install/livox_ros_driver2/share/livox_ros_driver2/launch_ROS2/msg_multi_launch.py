@@ -12,9 +12,10 @@ publish_freq  = 10.0 # freqency of publish, 5.0, 10.0, 20.0, 50.0, etc.
 output_type   = 0
 frame_id_1      = 'livox_frame_192_168_1_187'
 frame_id_2      = 'livox_frame_192_168_1_198'
-lvx_file_path = '/home/livox/livox_test.lvx'
-cmdline_bd_code = 'livox0000000001'
-
+lvx_file_path_1 = '/home/livox/livox_test_1.lvx'
+lvx_file_path_2 = '/home/livox/livox_test_2.lvx'
+cmdline_bd_code_1 = 'livox0000000001'
+cmdline_bd_code_2 = 'livox0000000002'
 cur_path = os.path.split(os.path.realpath(__file__))[0] + '/'
 cur_config_path = cur_path + '../config'
 user_config_path_1 = os.path.join(cur_config_path, 'MID360_config1.json')
@@ -28,9 +29,9 @@ livox_ros2_params_1 = [
     {"publish_freq": publish_freq},
     {"output_data_type": output_type},
     {"frame_id": frame_id_1},
-    {"lvx_file_path": lvx_file_path},
+    {"lvx_file_path": lvx_file_path_1},
     {"user_config_path": user_config_path_1},
-    {"cmdline_input_bd_code": cmdline_bd_code}
+    {"cmdline_input_bd_code": cmdline_bd_code_1}
 ]
 livox_ros2_params_2 = [
     {"xfer_format": xfer_format},
@@ -39,9 +40,9 @@ livox_ros2_params_2 = [
     {"publish_freq": publish_freq},
     {"output_data_type": output_type},
     {"frame_id": frame_id_2},
-    {"lvx_file_path": lvx_file_path},
+    {"lvx_file_path": lvx_file_path_2},
     {"user_config_path": user_config_path_2},
-    {"cmdline_input_bd_code": cmdline_bd_code}
+    {"cmdline_input_bd_code": cmdline_bd_code_2}
 ]
 
 

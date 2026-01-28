@@ -33,9 +33,6 @@ public:
     sync_->setMaxIntervalDuration(rclcpp::Duration::from_seconds(0.03));
     sync_->registerCallback(std::bind(&MergeCustomMsgNode::callback, this, std::placeholders::_1, std::placeholders::_2));
 
-    pub_merged_ = this->create_publisher<CustomMsg>("/merged_custom_cloud", 10);
-
-
     // publisher 直接用 qos（rclcpp::QoS 类型）
     pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", qos);
   }
@@ -50,8 +47,8 @@ private:
     geometry_msgs::msg::TransformStamped tf_stamped;
     try {
       tf_stamped = tf_buffer_.lookupTransform(
-        msg1->header.frame_id,           // target = lidar1 frame
-        msg2->header.frame_id,           // source = lidar2 frame
+        "livox_frame_192_168_1_187",           // target = lidar1 frame
+        "livox_frame_192_168_1_198",           // source = lidar2 frame
         rclcpp::Time(0),
         rclcpp::Duration(1, 0));
     } catch (const tf2::TransformException& ex) {
@@ -103,7 +100,7 @@ private:
     // 更新数据头等信息
     merged.point_num = static_cast<uint32_t>(merged.points.size());
     merged.header.stamp = (earlier_lidar_id == 1) ? msg1->header.stamp : msg2->header.stamp;
-    merged.header.frame_id = msg1->header.frame_id;  // 统一到 lidar1
+    merged.header.frame_id = "livox_frame_192_168_1_187";  // 统一到 lidar1
     merged.timebase = earlier_lidar_id == 1 ? msg1->timebase : msg2->timebase;
 
     pub_merged_->publish(merged);

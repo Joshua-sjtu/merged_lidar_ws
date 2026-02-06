@@ -1,6 +1,6 @@
 本工作空间包含livox驱动、双雷达点云合并
 # 使用方法：
-## 配置
+## 配置：
 进入src/livox_ros_driver2/multi_config.json 修改ip地址  
 进入src/lidar_merge/launch/merge_lidar.launch.py 修改tf  
 进入src/lidar_merge/src/merge.cpp 修改主雷达  

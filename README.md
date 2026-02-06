@@ -10,7 +10,7 @@
 `./build.sh humble`  
 ## 运行：
 在~/Desktop/merged_lidar_ws目录下  
-`sudo ptp4l -i enp1s0 -S -l 6 -m`（启动ptp主时钟） 
+`sudo ptp4l -i enp1s0 -S -l 6 -m`（启动ptp主时钟）   
 `source install/setup.bash`  
 `ros2 launch livox_ros_driver2 multi_msg_launch.py`（启动两个雷达与imu数据话题）  
 `ros2 launch lidar_merge merge_lidar.launch.py`（启动两雷达相对tf，启动merge节点）  

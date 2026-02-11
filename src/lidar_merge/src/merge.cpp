@@ -34,7 +34,8 @@ public:
     sync_->registerCallback(std::bind(&MergeCustomMsgNode::callback, this, std::placeholders::_1, std::placeholders::_2));
 
     // publisher 直接用 qos（rclcpp::QoS 类型）
-    pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", qos);
+    // pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", qos);
+    pub_merged_ = this->create_publisher<CustomMsg>("/merged_cloud", 20); // 为了配合 fast_lio 的 qos 设置
   }
 
 private:

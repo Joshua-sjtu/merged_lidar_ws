@@ -2,10 +2,11 @@
 # 使用方法：
 ## 配置：
 进入src/livox_ros_driver2/multi_config.json 修改ip地址  
-进入src/lidar_merge/launch/merge_lidar.launch.py 修改tf  
+进入src/lidar_merge/launch/merge_lidar.launch.py 修改tf与本体过滤参数  
 进入src/lidar_merge/src/merge.cpp 修改主雷达  
+
 ## 编译：
-在~/Desktop/merged_lidar_ws/src/livox_ros_driver2目录下输入  
+在~/Desktop/merged_lidar_ws/src/livox_ros_driver2目录下  
 `source /opt/ros/humble/setup.sh`  
 `./build.sh humble`  
 ## 运行：

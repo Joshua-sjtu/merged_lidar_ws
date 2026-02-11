@@ -45,12 +45,21 @@ def generate_launch_description():
         
         
 
-        # 2. 启动 merge 节点
-        Node(
+    # 2. 启动 merge 节点
+    Node(
             package='lidar_merge',
             executable='merge_point_node',
             name='merge_point_node',
             output='screen',
-            parameters=[{'use_sim_time': use_sim_time}],
+            parameters=[{
+                'enable_filter': True,
+                'target_frame': "base_link",
+                'filter_box_min_x': -0.25,   #数据来源于cad文件，留出5cm裕量
+                'filter_box_max_x': 0.8,
+                'filter_box_min_y': -0.35,
+                'filter_box_max_y': 0.35,
+                'filter_box_min_z': -0.15,       
+                'filter_box_max_z': 0.87
+                }],
         ),
     ])
